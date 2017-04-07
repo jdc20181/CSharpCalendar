@@ -1,6 +1,5 @@
 
     public void ReloadCal(DateTime ldate, int Selected) {
-        // TODO: On Error Resume Next Warning!!!: The statement is not translatable 
         this.clearall();
         MonthName.Text = monthstr(ldate.Month);
         DayOfWeek fdate = GetFirstOfMonthDay(ldate);
